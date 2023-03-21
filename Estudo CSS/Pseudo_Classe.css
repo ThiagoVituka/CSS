@@ -1,0 +1,33 @@
+/*
+
+OCTIVE          = e quando o elemento esta ativo, ou seja, esta sendo presionado 
+HOVER           = e quando o link fica selecionado quando ja foi visitado 
+CHECKED         = usado em radio / checkbox / select
+DISABLED        = elemento deabilitado / button / input
+ENABLE          = elemento esta habilitado 
+FOCUS           = é aplicado quando um elemento recebe foco, o que pode ocorrer quando o usuário seleciona o elemento 
+READ-ONLY       = seleciona unput ou textarea que são apenas leitura
+EMPTY           = elemento que não tem filho
+FIRST-CHILD     = primeiro filho / ex: primeiro L, de uma UL, priemrio SPA, de uma DIV
+FIRST-OF-TYP    = primeiro elemento de seu tipo entre os filhos de seu elemento pai 
+LAST-CHILD      = último filho
+LAST-OF-TUPE    = último elemento de seu tipo entre filhos de seu elemento pai
+NOT (  )        = estiliza os elementos exeto o que esta dentro do ( )
+NTH-CHILD       = seliciona o elemento baseado na sua posição EX nth-child ( 3 )
+NTH-LAST-CHILD  = seleciona o elemento baseado na sua posição, contando de trás para frente 
+
+
+
+EXEMPLO NO HTML 
+
+<ul>
+    <li> Primeiro </li>
+    <li> Segundo  </li>
+    <li> Terceiro </li>
+    <li> Quarto </li>
+    <li> Quinto </li>
+    <li> Sexto </li>
+    <li> Sétimo </li>
+*/
+
+

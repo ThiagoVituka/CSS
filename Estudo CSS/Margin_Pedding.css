@@ -1,0 +1,45 @@
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: #ff1493;
+    padding: 60pv;  /* aumetna o espaçamento de dentro para fora*/
+    margin: 20px; /* aumenta a margem de espaçamento da parte externa*/
+
+}
+.box-2 {
+    width: 50px;
+    height: 50px;
+    background: #9932cc;
+    margin: 50;  /*parte externa */
+    padding:30px; /* parte interna*/
+
+}
+
+            /* Atalhos para aplicação 
+        
+    Margin-top: 20px            LADO DE CIMA 
+    margin-boottom: 30px        LADO DE BAIXO 
+    margin-right: 10px          LADO ESQUERDO
+    margin-left> 5px            LADO DIREITO 
+    
+    Margin: 10px 50px 30px 5px
+    RELOGIO 12h  15H  18H  21H
+
+    OBS.: Podemos utilizar esse recurso em apenas uma linha da programação 
+
+    Margin: 10px 50px    30px
+    RELOGIO 12h 15H/21H   18H
+
+    OBS.: O comando ira executar primeiro a parte de cima, a do lado esquerdo
+    e direito ficara por igual e por ultimo executara a prte de baixo 
+
+     Margin:    10px      30px
+    RELOGIO   12h/18H   15h/21H
+
+    OBS.: O comando executara primeiro o lado de cima e de baixo e depois o lado
+    esquerdo e direito 
+
+    */
+    

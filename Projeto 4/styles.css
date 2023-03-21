@@ -1,0 +1,185 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+
+}
+head {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    
+}
+title {
+    display: none !important;
+}
+
+section { 
+    margin-top: 44px;
+    margin-left: 20px;
+    height: 100%;
+    width: 100%;
+}
+    
+
+    .Menu {
+        width: 79px;
+        height: 29px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #989D9C;
+        width: 79px;
+        height: 29px;
+        margin-right: 23px;
+        cursor: pointer;
+        
+    }
+
+    .Button {       
+        
+        background: #665AE1;
+        border-radius: 20.5px;
+        width: 130px;
+        height: 41px;
+        font-weight: 600px;
+        font-size: 22px;
+        line-height: 29px;
+        color: #FFFFFF;
+        border-radius: 20px;
+        border: 1px;
+        cursor: pointer;
+    }
+div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+img {
+    width: 539px;
+    height: 408px;
+    margin-left: 20px;
+    margin-top: 100px;
+    position: absolute;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    width: 513px;
+    height: 122px;
+    margin-top: 100px;
+    margin-left: 660px;
+    position: absolute;
+}
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+    width: 448px;
+    margin-top: 200px;
+    margin-left: 660px;
+    position: absolute;
+}
+
+
+p {
+    position: absolute;
+    width: 515px;
+    height: 87px;  
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin-top: 300px;
+    margin-left: 660px;
+    text-align: justify;
+}
+.Explore{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    background: #ADFF00;
+    border-radius: 20.5px;
+    border: none;
+    bottom: 36.9%;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 34px;
+    color: #000000;
+    width: 151px;
+    height: 38px;
+    margin-left: 660px;    
+    margin-top: 580px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+
+    
+   body {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        height: 25%;
+   }
+    
+    section {
+        display: none !important;
+    }
+    
+    img {
+        margin-top: 100px;
+        margin-left: 14px;
+        width: 354px;
+        height: 250.24px;
+        
+       }
+    h1 {
+       
+        width: 263px;
+        height: 52px;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+        margin-left: 70px;
+        margin-top: 390px;
+    }
+    h2 {
+        position: absolute;
+        width: 232px;
+        height: 37px;        
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        color: #515151;
+        margin-left: 80px;
+        margin-top: 460px;
+
+    }
+    p {
+        display: none !important;
+    }
+
+    .Explore {
+        position: absolute;      
+        background: #ADFF00;
+        border-radius: 20.5px;
+        margin-left: 60px;
+        width: 239px;
+        height: 64px;
+        margin-top: 520px;
+
+
+    }
+} 

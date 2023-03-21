@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    color: #ff0000;
+    font-size: 64px ;
+    font-weight:lighter;
+    font-family: "Roboto";
+    font-style:italic;
+    text-shadow: 15px 10px 10px #ff0000; /*pode dixar as letras com sombra em cada palavra ou texpo*/
+}
+
+p {
+    color:red;                  /* muda a cor do texto*/
+    font-size: 40px;               /*muda o tamanho do texto*/
+    font-weight: 300;              /*muda a largura da letra*/
+    font-family: "Roboto";        /*muda a fonte do texto ou o tipo de letra que quer utilizar */
+    font-style: oblique;            /* muda o estilo de litra deixa a letra de lado, negrito ou siblinhe*/  
+    line-height: 50px;              /*espaço dos paragrafos*/
+    letter-spacing: 10px;           /*espaço das linhas do texto*/
+    word-spacing: 40px;             /*espaço entre as palavras*/
+    text-align: center;             /*podemos centralizar deixar na esquerda ou direita do texto*/
+    text-transform: capitalize;     /*podemos deixar o texto todo maiculo, todo minusculo ou deixar o texto com as primeiras letras maiusculas*/
+
+}

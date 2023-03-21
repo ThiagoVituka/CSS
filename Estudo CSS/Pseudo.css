@@ -1,0 +1,43 @@
+/*
+Pseudo e toda a configuração que podemos alterar dentro do input conforme exemplos abaixo 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-szing: border-box;
+}
+
+input {
+    border: 1 px solid rede;
+    color: blue
+}
+
+input :: placeholder {
+      color: #FF1396
+}
+
+p:: first_letter {              * PARA MUDAR A COR DA PRIMEIRA LETRA
+    color: red
+}
+
+P:: first_line {                * PARA MUDAR A COR DA PRIMEIRA LINHA 
+    color: red
+}
+
+a {                              * LINK
+    color: blue
+}
+
+a:: before {                    * COLOCAR O SIMBOLO ANTES DO TEXTO 
+    content: "SIMBOLO",         * FICA ANTES DO TEXTO 
+}
+
+a:: after {                     * COLOCAR O SIMBOLO NO FINAL DO TEXTO
+    content " SIMBOLO ",        * O SIMBOLO FICA NO FINAL DO TEXTO
+}
+                    *  TAMBEM DA PARA COLOCAR EMOTION OU QUALQUER OUTRO TIPO DE SIMBOLO NOS TEXTOS 
+
+*/
+
+
+

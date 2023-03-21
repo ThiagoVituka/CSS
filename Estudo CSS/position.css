@@ -1,0 +1,16 @@
+/*
+.......Position STATIC ( padrao ) - Nao aceita valores de top, botton, right e left
+.......Position FIXA - fixa o elemento na tela
+.......Position STICKY - age como um adesivo, fixa o elemento so onde eu determinar
+.......Position RELATIVO - posiçãorelativa da posição inicial dele
+.......Position ABSOLUTE - posição absoluta ( fixa ) a algum elemento ou a pagina
+.......       * Se não tiver pai / pai for static -> posiciona refente a pagina
+.......       * Se o pai mae for static -> posiciona referente ao pai 
+
+......PROPIEDADE ......
+
+- TOP
+-BOTTON
+-LEFT
+-RIGHT
+*/

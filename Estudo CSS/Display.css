@@ -1,0 +1,84 @@
+
+
+/*
+        Exemplo
+
+    <body>
+        <div class="box"
+            minha div-1
+        </div>
+
+        <div class="box box-2"
+            minha div-2
+        </div>
+
+        <div class="box box-3"
+            minha div-3
+        </div>
+    <body>
+*/
+
+.box {
+    background: #ff1375;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    display: block;
+    }
+
+.box-2{
+    background: #ffff00;
+
+}
+
+.box-3{
+    background: #0003ff;
+
+}
+
+
+
+
+
+/*
+    Display
+
+_ BLOCK
+_ INLINE
+_ INLINE-BLOCK
+
+_ GRID
+_ FLEX
+
+        BLOCK
+    Ocupa toda a linhae define a altura largura da linha
+    vem como padrao: div, section,p,h1,h2,ul,li,article...
+
+    = Ocupa 100% da largura do elemento 
+    = Sempre ocupa toda a sua linha
+    = Altura definida de acordo com o conteudo 
+    = Podemos definir height e width
+    = Podemos definir valores de margin
+
+
+        INLINE
+        
+        um  do lado do outro nao consigo alterar altura e largura 
+        vem como padrao a, span,b,i ....
+
+    = ELEMENTOS EM LINHA
+    = Nao permite alterar height e width
+    = Nao podemos definir valores de margin top e bottom
+    = Ganha comportamento de uma palavra
+
+
+        INLINE-BLOCK
+        
+        todo mundo na mesma linha porem consigo alterar altura e largura
+        vem como ocupar os dois block e inline conseguimos alterar a altura e largura porem 
+        ficara preza na linha
+
+    = Elementos em linha, porem com caracteristica do display Block
+    = Altura e Largura podem ser alteradas
+    */
+    

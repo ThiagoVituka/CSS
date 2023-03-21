@@ -1,0 +1,40 @@
+/* UNIDADE DE MEDIDAS
+
+
+
+    => ABSOLUTAS
+
+    PX ( PIXELS)
+    IN ( INCHES / POLEGADAS )
+    CM / MM ( CENTIMETRO / MILIMETRO )
+
+    => RELATIVAS
+
+    %  =  CALCULA O TAMANHO DO RELATIVO AO ELEMENTO PAI
+    VW = ( VIEW WIDTH ) 1 VW É 1% DA LARGURA DA JANELA DO NAVEGADOR
+    VN = ( VIEW HEGHT ) 1 VH É 1% DA ALTURA DA JANELA DO NAVEGADOR
+    EM = É UMA VARIEDADE RELATIVO AO ELEMTNO PAI 
+    REM = É UMA VARIEDADE RELATIVA AO ELEMENTO RAIZ
+
+    */
+    /* EXEMPLO*/
+
+.avo {
+
+}
+
+.pai{
+    width: 100vw;
+    height: 100vw;
+    background: #0000ff;
+    color: #ffffff;
+}
+
+.filho{
+    width: 50%;
+    height: 50%;
+    background: #FF0000;
+    color: #FFFFFFF;
+        
+
+}
